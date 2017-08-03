@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:id="@+id/display">
+
+    <TextView
+        android:text="INSTRUCTIONS"
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="24sp"
+        android:layout_weight="0.06"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="1.  Always keep the background plain white (preferably A4)."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_weight="0.06"
+        android:layout_below="@+id/intro"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="2.  A  1cmx1cm square should be coloured. "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro2"
+        android:layout_weight="0.06"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/intro1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="3.  Make sure the flash is always on when capturing photos."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro3"
+        android:layout_weight="0.07"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_below="@+id/intro2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:text="4.  Try keeping the phone as far as posible from the leaf and then zooming so that only the leaf and square are visible."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro4"
+        android:layout_weight="0.10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/intro3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
